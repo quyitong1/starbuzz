@@ -11,6 +11,9 @@ header {
   height:           108px;
   margin: 10px 10px 0px 10px;
 }
+header img#headerSlogan {
+  float: right;
+}
 
 #tableContainer{
   display: table;
@@ -123,4 +126,4 @@ div#tableRow{
 .coupon:hover{
   left:0px;
 
-}`  
+}
