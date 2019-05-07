@@ -1,0 +1,76 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Document</title>
+</head>
+<body>
+   <p id="xiaoqu">我是文字</p>
+  <script>
+  
+   var x=10
+   if(x>20){
+     document.write('x是一个大于20的数')
+
+   } else {
+     document.write('x是一个小于等于20的数')
+   }
+   document.getElementById('xiaoqu').innerHTML="我才是文字"
+
+
+    document.write('<br>')
+
+    function whoisbigger(x,y) {
+      if (x > y) {
+        return x
+      } else {
+        return y
+      }
+    }
+    document.write(whoisbigger(1, 2))
+    document.write('<br>')
+    document.write(whoisbigger(12, 2))
+    document.write('<br>')
+    document.write(whoisbigger(1321, 232))
+    document.write('<br>')
+    document.write(whoisbigger(511, 224))
+    document.write('<br>')
+    document.write(whoisbigger(155, 22))
+    document.write('<br>')
+    document.write(whoisbigger(15, 22))
+    document.write('<br>')
+    document.write(whoisbigger(41, 2362))
+    document.write('<br>')
+
+    document.write('<br>' + Math.random())
+    document.write('<br>' + Math.random())
+    document.write('<br>' + Math.random())
+    document.write('<br>' + Math.random())
+    document.write('<br>' + Math.random())
+    document.write('<br>' + Math.random())
+    document.write('<br>' + Math.random())
+    document.write('<br>' + Math.floor(Math.random() * 10 ))
+
+
+
+
+    function bark(weight){
+      if (weight  >=15)
+        return('汪汪<br>')
+        else 
+        return('咩咩<br>')
+    }
+    document.write("<br>")
+    document.write("<br>")
+    document.write("<br>")
+    document.write("<br>")
+    document.write('杨旭'+ '汪汪' +'叫')
+  </script>
+  
+    
+  
+</body>
+</html>
