@@ -1,0 +1,224 @@
+body {
+  margin: 0px;
+}
+
+.current-heighlight {
+  color: #FF4444 !important;
+}
+.nav-list{
+  font-size: 14px;
+  margin-top: 26px;
+}
+
+ .header{
+    width: 100%;
+    min-width: 1100px;
+    height: 70px;
+    position: relative;
+    background: #ffffff;
+    border-bottom: 1px solid #ededed;
+    box-shadow: 0px 1px 4px rgba(0, 0, 0, 0.1);
+    z-index: 200;
+    transition: all 0.5s ease-in;
+}
+.header-container{
+  box-sizing: border-box;
+    margin: 0 auto;
+    width: 1100px;
+    height: 70px;
+    zoom: 1;
+}
+.logo{
+  display: inline-block;
+    width: 72px;
+    height: 25px;
+    margin-top: 22.5px;
+    background-size: 72px 25px;
+    background-image: url(http://img.yzcdn.cn/public_files/2016/11/29/8fc4cd6f771897cbf9663166a63a5302.png);
+}
+.nav-link-container{
+  display: inline-block;
+    width: 60px;
+    margin-left: 10px;
+    margin-bottom: -1px;
+}
+.nav-link{
+  float: left;
+  width: 78px;
+  color: #999;
+  font-size: 10px;
+  font-family: 'PingFang SC';
+  font-weight: 300;
+  line-height: 13px;
+  margin:0px;
+}
+p {
+  display: block;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+}
+.nav-list{
+  float: right;
+  padding-left: 0px;
+  margin: 0px;
+}
+.nav-list li{
+  display: inline;
+  padding: 0px 20px 0px 20px;
+}
+.nav-list li a{
+  text-decoration: none;
+  color: #2c3a46;
+}
+.current-highlight{
+  line-height: 70px;
+}
+.nav-list .login_common_ .btn-login{
+  display: inline-block;
+  width: 78px;
+  padding: 5px 0px 5px 0px;
+  border-radius: 2px;
+  border: 1px solid #2b90ed;
+  color: #2B90ED;
+  text-align: center;
+}
+.nav-list .register_common_ .btn-register_{
+  display: inline-block;
+  width: 78px;
+  padding: 5px 0px 5px 0px;
+  border-radius: 2px;
+  border: 1px solid #2b90ed;
+  background-color: #2b90ed;
+  color: #ffffff;
+  text-align: center;
+}
+.nav-list .login_common_{
+  padding-right: 0px;
+}
+.nav-list .register_common_{
+  padding-left: 10px;
+}
+a.product-center:hover{
+  color: red;
+}
+.content-wrapper{
+  z-index: 1;
+  line-height: 62px;
+  width: 1100px;
+  height: 100%;
+  margin-left: auto;
+  margin-right: auto;
+}
+.banner-container{
+	height: 420px;
+    width: 100%;
+}
+.image{
+	height: 420px;
+	width: 100%;
+	background-image: url("image/image1.jpg");
+	background-position: center;
+	background-size: 100% 420px;
+	
+}
+h3{
+	margin: 0px;
+	font-size: 44px;
+	line-height: 62px;
+	padding: 100px 0 7px;
+	padding-bottom: 0px;
+	font-weight:normal;
+}
+.font-lighter{
+	margin: 0px;
+	font-size: 20px;
+    color: #777;
+    margin-bottom: 20px;
+	margin-top: -10px;
+}
+.try-free-wsc{
+	width: 76px;
+    height: 20px;
+    line-height: 18px;
+    display: inline-block;
+    text-align: center;
+	background: #38f;
+    padding: 12px 42px;
+    color: #fff;
+	text-decoration: underline;
+	border-radius: 5px;
+}
+.font-phone{
+	height: 22px;
+	font-size: 14px;
+  color: #777;
+	margin: 0px;
+	display: block;
+	line-height: 18px;
+	margin-top: 15px;
+}
+.wrapper{
+  height: 620px;
+  max-width: 1100px;
+  margin: 0 auto;
+  position: relative;
+}
+.wrapper h3{
+  font-family: PingFangSC-Medium;
+  font-size: 28px;
+  text-align: center;
+  padding-top: 90px;
+  line-height: 40px;
+}
+.wcard-content{
+  margin-top:70px;
+  width: 100%;
+}
+.wcard-left{
+  float: left;
+}
+.wcard-section{
+  margin-bottom: 28px;
+}
+.wcard-sectitle{
+  margin: 0px;
+  color: #333;
+  font-size: 18px;
+  line-height: 24px;
+  font-family: PingFangSC-Medium;
+  letter-spacing: 0;
+}
+.wcard-secsummary{
+  margin-top: 5px;
+  margin-bottom: 0px;
+  font-family: PingFangSC-Regular;
+  font-size: 14px;
+  color: #999;
+  letter-spacing: 0;
+  line-height: 24px;
+}
+.blue{
+  margin-right: 15px;
+  background-color: #38f;
+  color: #fff;
+  font-size: 14px;
+  padding: 10px 42px;
+  border-radius: 2px;
+  display: inline-block;
+  text-decoration: none;
+}
+.blue-outline{
+  margin-left: 15px;
+  border: 1px solid #38f;
+  color: #38f;
+  padding: 9px 42px;
+  font-size: 14px;
+  border-radius: 2px;
+  display: inline-block;
+  text-decoration: none;
+}
+.wcard-right{
+  float: right;
+}
